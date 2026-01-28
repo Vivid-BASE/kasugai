@@ -85,10 +85,7 @@ const Area = () => {
                             </p>
                         </motion.div>
 
-                        <a href="#contact" className="inline-flex items-center gap-2 text-primary font-bold hover:text-primary-dark transition-colors group">
-                            お近くかどうかわからない場合もお気軽にお問い合わせください
-                            <ArrowRight size={18} className="transform group-hover:translate-x-1 transition-transform" />
-                        </a>
+
                     </div>
 
                 </div>

@@ -1,4 +1,5 @@
 import React from 'react';
+import logo from '../assets/logo-v2.png';
 
 const Footer = () => {
     return (
@@ -7,13 +8,13 @@ const Footer = () => {
                 <div className="grid md:grid-cols-4 gap-8 mb-8">
                     <div className="col-span-1 md:col-span-2">
                         <div className="flex items-center gap-2 mb-4">
-                            <div className="bg-gradient-to-tr from-primary to-secondary w-8 h-8 rounded-lg flex items-center justify-center">
-                                <span className="text-white font-bold text-lg">K</span>
-                            </div>
-                            <span className="text-xl font-bold text-white tracking-tight">春日井クリーンテック</span>
+                            <img src={logo} alt="Clover Cleaner Logo" className="w-8 h-8 object-contain" />
+                            <span className="text-xl font-bold text-white tracking-tight">クローバークリーナー</span>
                         </div>
                         <p className="text-sm leading-relaxed max-w-sm">
-                            私たちは、最新技術とプロフェッショナルの技で、快適で美しい空間を創造する清掃のスペシャリストです。春日井市を中心に、オフィスビル、商業施設、マンションの清掃管理を行っています。
+                            〒486-0828 愛知県春日井市堀ノ内町北一丁目６５番地<br />
+                            代表：野村　貴典<br /><br />
+                            清掃業務をメインとしたビルメンテナンス業。最新技術とプロフェッショナルの技で、快適で美しい空間を創造する清掃のスペシャリストです。
                         </p>
                     </div>
 
@@ -39,7 +40,7 @@ const Footer = () => {
                 </div>
 
                 <div className="pt-8 border-t border-slate-800 text-center text-xs">
-                    &copy; {new Date().getFullYear()} Kasugai Clean Tech. All Rights Reserved.
+                    &copy; {new Date().getFullYear()} Clover Cleaner. All Rights Reserved.
                 </div>
             </div>
         </footer>

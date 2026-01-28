@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Menu, X, Phone } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
+import logo from '../assets/logo-v2.png';
 
 const Header = () => {
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -11,13 +12,11 @@ const Header = () => {
 
                 {/* Logo - Made Stronger/Larger */}
                 <a href="#" className="flex items-center gap-3 group">
-                    <div className="bg-primary w-10 h-10 rounded-xl flex items-center justify-center text-white shadow-md transform group-hover:scale-105 transition-transform duration-300">
-                        <span className="font-extrabold text-2xl">春</span>
-                    </div>
+                    <img src={logo} alt="Clover Cleaner Logo" className="w-12 h-12 object-contain" />
                     <div className="flex flex-col">
                         <span className="text-xs font-bold text-slate-500 tracking-wider">春日井のハウスクリーニング</span>
                         <span className="text-xl font-extrabold text-slate-800 tracking-tight leading-none group-hover:text-primary transition-colors">
-                            春日井クリーンテック
+                            クローバークリーナー
                         </span>
                     </div>
                 </a>
