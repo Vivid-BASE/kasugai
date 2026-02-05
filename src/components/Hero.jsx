@@ -82,7 +82,7 @@ const Hero = () => {
                                 <img
                                     src={honnin03}
                                     alt="Friendly Staff"
-                                    className="w-full h-auto object-cover"
+                                    className="w-full h-auto object-cover object-center"
                                 />
 
                                 {/* Floating Badge on Image */}
