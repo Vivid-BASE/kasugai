@@ -2,6 +2,7 @@ import React from 'react';
 import { IMAGES } from '../constants';
 import sagyo01 from '../assets/sagyo01.jpg';
 import sagyo02 from '../assets/sagyo02.jpg';
+import sagyo03 from '../assets/sagyo03.jpg';
 
 const Services = () => {
     // Simple list, no complex stagger animations
@@ -21,7 +22,7 @@ const Services = () => {
         {
             title: "スポット清掃",
             desc: "「ここだけキレイにしたい」というご要望もお気軽に。",
-            img: IMAGES.services.glass,
+            img: sagyo03,
             price: "8,800円〜 / 1箇所",
         }
     ];

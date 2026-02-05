@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Users, Zap, Smile } from 'lucide-react';
-import honninn from '../assets/honninn.jpg'; // Import custom image
+import honnin02 from '../assets/honnnin02.jpg'; // Import custom image
 
 const WhyUs = () => {
     const reasons = [
@@ -71,9 +71,9 @@ const WhyUs = () => {
                         transition={{ duration: 0.8 }}
                         className="order-1 lg:order-2 relative"
                     >
-                        {/* Main Image - Using honninn for specific request */}
+                        {/* Main Image - Using honnin02 for specific request */}
                         <div className="relative z-10 rounded-[2rem] overflow-hidden shadow-2xl rotate-2 hover:rotate-0 transition-transform duration-500 border-4 border-white">
-                            <img src={honninn} alt="Trustworthy Staff at work" className="w-full h-auto" />
+                            <img src={honnin02} alt="Trustworthy Staff at work" className="w-full h-auto" />
 
                             {/* Overlay Card - Technique/Quality Focus */}
                             <div className="absolute bottom-6 right-6 bg-white/95 backdrop-blur px-5 py-3 rounded-xl shadow-lg border border-slate-100 flex items-center gap-3">
