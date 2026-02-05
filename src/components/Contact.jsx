@@ -1,5 +1,6 @@
 import React from 'react';
 import { Phone, Mail, ArrowRight } from 'lucide-react';
+import heroStaff from '../assets/hero_staff.png'; // Use real staff image
 import { IMAGES } from '../constants';
 
 const Contact = () => {
@@ -13,7 +14,7 @@ const Contact = () => {
                     {/* Left: Contact Info & Image */}
                     <div className="md:w-1/2 relative bg-primary-dark text-white p-12 flex flex-col justify-between">
                         <div className="absolute inset-0 opacity-10 mix-blend-overlay">
-                            <img src={IMAGES.contact} alt="Contact" className="w-full h-full object-cover" />
+                            <img src={heroStaff} alt="Contact" className="w-full h-full object-cover" />
                         </div>
                         <div className="relative z-10">
                             <span className="text-white/80 font-bold tracking-wider uppercase mb-2 block">Contact Us</span>
