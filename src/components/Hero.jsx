@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Phone, CheckCircle, Star, ShieldCheck } from 'lucide-react';
-import honnin03 from '../assets/honnnin03.jpg'; // Import custom image
+import honnin04 from '../assets/honninn04.jpg'; // Import custom image
 
 const Hero = () => {
     return (
@@ -80,7 +80,7 @@ const Hero = () => {
                             {/* Image Container with Mask/Shape */}
                             <div className="relative rounded-[2.5rem] overflow-hidden shadow-2xl border-4 border-white transform rotate-1 hover:rotate-0 transition-transform duration-500">
                                 <img
-                                    src={honnin03}
+                                    src={honnin04}
                                     alt="Friendly Staff"
                                     className="w-full h-auto object-cover object-center"
                                 />
