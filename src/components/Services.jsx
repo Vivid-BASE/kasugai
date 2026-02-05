@@ -1,5 +1,7 @@
 import React from 'react';
 import { IMAGES } from '../constants';
+import sagyo01 from '../assets/sagyo01.jpg';
+import sagyo02 from '../assets/sagyo02.jpg';
 
 const Services = () => {
     // Simple list, no complex stagger animations
@@ -7,13 +9,13 @@ const Services = () => {
         {
             title: "日常のお掃除",
             desc: "忙しいあなたに代わって、掃除機がけや拭き掃除を行います。",
-            img: IMAGES.services.floor,
+            img: sagyo01,
             price: "5,500円 / 1時間",
         },
         {
             title: "お店の床・ガラス",
             desc: "小さなお店や事務所の美観維持。定期的な訪問も可能です。",
-            img: IMAGES.services.office,
+            img: sagyo02,
             price: "要見積もり",
         },
         {
