@@ -44,7 +44,7 @@ const Services = () => {
                                 <img
                                     src={service.img}
                                     alt={service.title}
-                                    className="w-full h-full object-cover"
+                                    className="w-full h-full object-cover object-top"
                                 />
                                 <div className="absolute top-4 right-4 bg-white/90 backdrop-blur px-3 py-1 rounded-full text-xs font-bold text-slate-800 shadow-sm">
                                     {service.price}
