@@ -92,7 +92,7 @@ const Hero = () => {
                                     </div>
                                     <div className="flex flex-col">
                                         <span className="text-xs font-bold text-slate-500">お掃除のプロ</span>
-                                        <span className="text-sm font-extrabold text-slate-800">スタッフがお伺いします</span>
+                                        <span className="text-sm font-extrabold text-slate-800">わたくし野村がお伺いします</span>
                                     </div>
                                 </div>
                             </div>

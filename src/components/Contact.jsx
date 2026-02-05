@@ -1,5 +1,5 @@
 import React from 'react';
-import { Phone, Mail, ArrowRight } from 'lucide-react';
+import { Phone, Mail, ArrowRight, MessageCircle } from 'lucide-react';
 import heroStaff from '../assets/hero_staff.png'; // Use real staff image
 import { IMAGES } from '../constants';
 
@@ -27,13 +27,23 @@ const Contact = () => {
                                 しつこい営業は一切いたしません。
                             </p>
 
-                            <a href="tel:0568XXXXXX" className="flex items-center gap-4 mb-8 bg-white/10 p-4 rounded-xl hover:bg-white/20 transition-colors cursor-pointer">
+                            <a href="tel:0568XXXXXX" className="flex items-center gap-4 mb-4 bg-white/10 p-4 rounded-xl hover:bg-white/20 transition-colors cursor-pointer">
                                 <div className="w-12 h-12 rounded-full bg-white text-primary-dark flex items-center justify-center flex-shrink-0">
                                     <Phone size={24} />
                                 </div>
                                 <div>
                                     <p className="text-xs text-white/80">お電話でのお問合わせ (9:00 - 18:00)</p>
                                     <p className="text-2xl font-bold tracking-wide">0568-XX-XXXX</p>
+                                </div>
+                            </a>
+
+                            <a href="#" className="flex items-center gap-4 mb-8 bg-[#06C755] p-4 rounded-xl hover:bg-[#05b34c] transition-colors cursor-pointer text-white shadow-lg border border-white/10">
+                                <div className="w-12 h-12 rounded-full bg-white text-[#06C755] flex items-center justify-center flex-shrink-0">
+                                    <MessageCircle size={24} />
+                                </div>
+                                <div>
+                                    <p className="text-xs text-white/90">LINEで手軽に相談</p>
+                                    <p className="text-xl font-bold tracking-wide">公式LINEはこちら</p>
                                 </div>
                             </a>
                         </div>
